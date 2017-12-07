@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent (typeof(Rigidbody))]
 public class GravityBodyScript : MonoBehaviour {
 
-    public GravityAttractor attractor;
+    public GravityAttractorScript attractor;
     private Transform MyTransform;
 
     void Start ()

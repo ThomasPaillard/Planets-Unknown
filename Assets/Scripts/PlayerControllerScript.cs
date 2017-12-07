@@ -6,11 +6,15 @@ public class PlayerControllerScript : MonoBehaviour {
 
     public float MoveSpeed = 15;
     private Vector3 MoveDirection;
+    public float Jump;
+    public float SpeedRotation;
 
     void Update ()
     {
         MoveDirection = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
-	}
+
+        
+    }
 
     private void FixedUpdate()
     {
