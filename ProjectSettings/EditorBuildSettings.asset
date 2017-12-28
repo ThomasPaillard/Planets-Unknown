@@ -4,4 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Planet_Paul.unity
+    guid: e8aef77d894ca9442ae0b2d035fc09e9
+  - enabled: 1
+    path: Assets/Scenes/Planet 2 - Desert.unity
+    guid: 6c96816d6d7a18140a9a0c8bcb158bbf
+  - enabled: 1
+    path: Assets/Scenes/Planet 3.unity
+    guid: 49be6a88831bed14ab2a7aa3a4a31e3d

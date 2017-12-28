@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent (typeof(Rigidbody))]
 public class GravityBodyScript : MonoBehaviour {
 
-    public GravityAttractorScript attractor;
+    GravityAttractorScript attractor;
     private Transform MyTransform;
 
     void Start ()
@@ -19,6 +19,7 @@ public class GravityBodyScript : MonoBehaviour {
 	
 	void FixedUpdate ()
     {
+        attractor = GameObject.FindWithTag("Planet").GetComponent<GravityAttractorScript>();
         if (attractor)
         {
             attractor.Attract(MyTransform);

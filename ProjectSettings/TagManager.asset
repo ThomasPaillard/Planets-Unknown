@@ -3,7 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enigme
+  - Planet
+  - Enigme 2
+  - Enigme 3
+  - Enigme 4
+  - Enigme 5
+  - Portail
+  - Start
+  - fire
+  - GameManager
+  - Obstacle
   layers:
   - Default
   - TransparentFX
